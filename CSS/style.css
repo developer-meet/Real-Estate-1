@@ -274,7 +274,7 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 595px) {
   .body .about-sec {
     padding: 50px 20px !important;
   }
@@ -288,6 +288,6 @@
   }
 
   .about-sec-quailitys div i {
-    margin-top: 8px !important;
+    margin-top: 18px !important;
   }
 }
