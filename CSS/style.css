@@ -36,10 +36,6 @@
 
 /* Font size */
 
-.fs-15px {
-  font-size: 15px;
-}
-
 .fs-17px {
   font-size: 17px;
 }
@@ -70,4 +66,69 @@
 
 .fs-64px {
   font-size: 64px;
+}
+
+/* Hero Section */
+
+.hero-sec {
+  background-image: url(../Assets/Img\ 1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 130px !important;
+}
+
+.header-sec ul li a {
+  color: var(--white);
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.call-now-btn {
+  position: absolute;
+  background-color: var(--sim-dark-green);
+  color: var(--white);
+  display: inline-block;
+  border-radius: 20px;
+  top: 28px;
+  right: 28px;
+}
+
+.hero-sec-heading {
+  max-width: 490px;
+  color: var(--white);
+  margin-top: 140px !important;
+}
+
+.hero-sec-para {
+  max-width: 560px;
+  color: var(--sim-cream);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-sec .call-now-btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body .hero-sec {
+    padding: 0 20px 50px !important;
+  }
+
+  .header-sec ul {
+    justify-content: space-between !important;
+  }
+
+  .header-sec ul li {
+    margin: 0 !important;
+  }
+
+  .hero-sec .hero-sec-heading {
+    font-size: 40px !important;
+  }
+
+  .hero-sec .hero-sec-para {
+    font-size: 20px !important;
+  }
 }
