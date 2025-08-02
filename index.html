@@ -41,9 +41,9 @@
           </li>
         </ul>
       </div>
-      <div class="call-now-btn poppins fs-20px px-3 py-2 fw-medium">
+      <button class="call-now-btn poppins fs-20px px-3 py-2 fw-medium">
         Call Now
-      </div>
+      </button>
       <div class="hero-sec-main-content">
         <h1 class="hero-sec-heading fs-64px poppins fw-medium">
           Find A House That Suits You
@@ -132,22 +132,10 @@
       <div class="clients-sec-top-sec text-center">
         <h2 class="poppins fw-medium fs-48px">What Our Clients Say</h2>
       </div>
-      <div id="carouselExample" class="clients-sec-bottom-sec carousel slide">
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-          <i
-            class="fa-solid fa-arrow-left carousel-control-prev-icon"
-            aria-hidden="true"
-            style="color: #2a2a2a"
-          ></i>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
+      <div
+        id="carouselExample"
+        class="carousel slide clients-sec-bottom-sec d-flex justify-content-between align-items-center"
+      >
         <div class="carousel-inner mx-auto">
           <div class="carousel-item active">
             <div class="carousel-img-sec text-center mb-5">
@@ -201,15 +189,30 @@
             </div>
           </div>
         </div>
-
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <i
+            class="fa-solid fa-arrow-left carousel-control-prev-icon"
+            aria-hidden="true"
+            style="color: #2a2a2a"
+          ></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
         <button
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"
         >
-          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-          <i class="fa-solid fa-arrow-right" style="color: #2a2a2a"></i>
+          <i
+            class="fa-solid fa-arrow-right carousel-control-next-icon"
+            aria-hidden="true"
+            style="color: #2a2a2a"
+          ></i>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
